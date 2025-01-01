@@ -1,0 +1,13 @@
+[package]
+name = "serde-try-from"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "1.0.92"
+quote = "1.0.38"
+serde_json = "1.0.134"
+syn = "2.0.93"
