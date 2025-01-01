@@ -11,3 +11,7 @@ proc-macro2 = "1.0.92"
 quote = "1.0.38"
 serde_json = "1.0.134"
 syn = "2.0.93"
+
+[dev-dependencies]
+serde = { version = "1.0.217", features = ["derive"] }
+serde-try-from = { path = "." }
